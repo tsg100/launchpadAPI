@@ -1,5 +1,5 @@
 # launchpadAPI
-A API to control the lights of a Launchpad Mini over MIDI Commands while also beeing able to get commands send by the device.
+An API to control the lights of a Launchpad Mini over MIDI Commands while also beeing able to get commands send by the device.
 In this way you can detect, which buttons were pressed.
 
 # Functions
