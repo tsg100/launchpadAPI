@@ -9,7 +9,7 @@ public class SendMidi {
         MidiDevice.Info[] devices = MidiSystem.getMidiDeviceInfo();
 
         for(int i = 0; i < devices.length; i++){
-            if(devices[i].getDescription().equalsIgnoreCase("External MIDI Port")){ //select device
+            if(devices[i].getDescription().equalsIgnoreCase("External MIDI Port")){ //select device. Seems to be WIN Default name for Launchpad Mini
                 try {
                     device = MidiSystem.getMidiDevice(devices[i]);
 
