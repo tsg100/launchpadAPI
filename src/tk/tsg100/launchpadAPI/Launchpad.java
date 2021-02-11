@@ -30,7 +30,7 @@ public class Launchpad implements Receiver {
         this(Channels.C1, launchpadReceiver);
     }
 
-    @Override //pls dont use PLSSS :C
+    @Override //pls dont use PLSSS :C uwu
     public void send(MidiMessage message, long timeStamp) {
         if (this.launchpadReceiver != null && message instanceof ShortMessage
                 && (((ShortMessage) message).getChannel() == this.channel.channelForSystem())
